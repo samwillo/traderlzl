@@ -1,0 +1,13 @@
+Code : 000410
+Last trading date : 2017-10-16
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 13.96, 6.08
+GAIN days total : 88
+FALL days total : 97
+FLAT days total : 4
+Continous UP days MAX : 7
+Times of MAX UP days  : 1
+Continous FALL days MAX : 8
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.63, 2: 0.16, 3: 0.1, 4: 0.06, 5: 0.02, 6: 0.0, 7: 0.02}
+Continous FALL days Probability : {1: 0.53, 2: 0.24, 3: 0.14, 4: 0.06, 5: 0.02, 6: 0.0, 7: 0.0, 8: 0.02}

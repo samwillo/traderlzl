@@ -1,0 +1,13 @@
+Code : 600513
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 17.27, 9.22
+GAIN days total : 91
+FALL days total : 94
+FLAT days total : 5
+Continous UP days MAX : 5
+Times of MAX UP days  : 2
+Continous FALL days MAX : 5
+Times of MAX FALL days  : 2
+Continous UP days Probability : {1: 0.56, 2: 0.25, 3: 0.13, 4: 0.02, 5: 0.04}
+Continous FALL days Probability : {1: 0.44, 2: 0.4, 3: 0.1, 4: 0.02, 5: 0.04}

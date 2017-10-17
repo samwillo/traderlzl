@@ -1,0 +1,13 @@
+Code : 000066
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 13.29, 7.58
+GAIN days total : 83
+FALL days total : 101
+FLAT days total : 7
+Continous UP days MAX : 6
+Times of MAX UP days  : 2
+Continous FALL days MAX : 8
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.57, 2: 0.26, 3: 0.06, 4: 0.04, 5: 0.0, 6: 0.04}
+Continous FALL days Probability : {1: 0.43, 2: 0.32, 3: 0.11, 4: 0.04, 5: 0.09, 6: 0.0, 7: 0.0, 8: 0.02}

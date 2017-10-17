@@ -1,0 +1,13 @@
+Code : 600876
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 30.44, 13.83
+GAIN days total : 63
+FALL days total : 82
+FLAT days total : 2
+Continous UP days MAX : 9
+Times of MAX UP days  : 1
+Continous FALL days MAX : 11
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.64, 2: 0.21, 3: 0.03, 4: 0.06, 5: 0.0, 6: 0.0, 7: 0.03, 8: 0.0, 9: 0.03}
+Continous FALL days Probability : {1: 0.36, 2: 0.33, 3: 0.12, 4: 0.09, 5: 0.03, 6: 0.0, 7: 0.0, 8: 0.03, 9: 0.0, 10: 0.0, 11: 0.03}

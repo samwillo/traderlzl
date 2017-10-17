@@ -1,0 +1,13 @@
+Code : 002432
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 17.2, 9.9
+GAIN days total : 90
+FALL days total : 96
+FLAT days total : 5
+Continous UP days MAX : 6
+Times of MAX UP days  : 1
+Continous FALL days MAX : 6
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.5, 2: 0.27, 3: 0.13, 4: 0.04, 5: 0.02, 6: 0.02}
+Continous FALL days Probability : {1: 0.48, 2: 0.29, 3: 0.06, 4: 0.1, 5: 0.04, 6: 0.02}

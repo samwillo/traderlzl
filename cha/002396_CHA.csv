@@ -1,0 +1,13 @@
+Code : 002396
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 22.56, 16.5
+GAIN days total : 86
+FALL days total : 68
+FLAT days total : 1
+Continous UP days MAX : 7
+Times of MAX UP days  : 1
+Continous FALL days MAX : 5
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.51, 2: 0.23, 3: 0.09, 4: 0.12, 5: 0.02, 6: 0.0, 7: 0.02}
+Continous FALL days Probability : {1: 0.64, 2: 0.19, 3: 0.12, 4: 0.02, 5: 0.02}

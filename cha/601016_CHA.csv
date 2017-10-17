@@ -1,0 +1,13 @@
+Code : 601016
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 9.56, 3.42
+GAIN days total : 84
+FALL days total : 92
+FLAT days total : 14
+Continous UP days MAX : 5
+Times of MAX UP days  : 1
+Continous FALL days MAX : 6
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.5, 2: 0.31, 3: 0.13, 4: 0.02, 5: 0.02}
+Continous FALL days Probability : {1: 0.52, 2: 0.19, 3: 0.23, 4: 0.0, 5: 0.04, 6: 0.02}

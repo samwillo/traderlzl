@@ -1,0 +1,13 @@
+Code : 002590
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 21.66, 12.05
+GAIN days total : 89
+FALL days total : 97
+FLAT days total : 4
+Continous UP days MAX : 5
+Times of MAX UP days  : 1
+Continous FALL days MAX : 8
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.44, 2: 0.44, 3: 0.02, 4: 0.08, 5: 0.02}
+Continous FALL days Probability : {1: 0.52, 2: 0.21, 3: 0.15, 4: 0.04, 5: 0.06, 6: 0.0, 7: 0.0, 8: 0.02}

@@ -1,0 +1,13 @@
+Code : 600887
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 28.73, 17.38
+GAIN days total : 107
+FALL days total : 77
+FLAT days total : 2
+Continous UP days MAX : 6
+Times of MAX UP days  : 1
+Continous FALL days MAX : 6
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.34, 2: 0.3, 3: 0.11, 4: 0.14, 5: 0.09, 6: 0.02}
+Continous FALL days Probability : {1: 0.5, 2: 0.34, 3: 0.11, 4: 0.02, 5: 0.0, 6: 0.02}

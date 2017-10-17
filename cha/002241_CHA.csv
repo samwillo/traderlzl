@@ -1,0 +1,13 @@
+Code : 002241
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 35.88, 16.28
+GAIN days total : 103
+FALL days total : 84
+FLAT days total : 4
+Continous UP days MAX : 6
+Times of MAX UP days  : 1
+Continous FALL days MAX : 4
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.53, 2: 0.28, 3: 0.14, 4: 0.02, 5: 0.02, 6: 0.02}
+Continous FALL days Probability : {1: 0.65, 2: 0.25, 3: 0.09, 4: 0.02}

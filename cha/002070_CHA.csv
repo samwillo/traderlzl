@@ -1,0 +1,13 @@
+Code : 002070
+Last trading date : 2017-04-28
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 16.9, 9.61
+GAIN days total : 35
+FALL days total : 39
+FLAT days total : 1
+Continous UP days MAX : 6
+Times of MAX UP days  : 1
+Continous FALL days MAX : 5
+Times of MAX FALL days  : 2
+Continous UP days Probability : {1: 0.47, 2: 0.32, 3: 0.05, 4: 0.05, 5: 0.0, 6: 0.05}
+Continous FALL days Probability : {1: 0.53, 2: 0.21, 3: 0.05, 4: 0.11, 5: 0.11}
