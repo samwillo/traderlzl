@@ -1,0 +1,13 @@
+Code : 002008
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 46.15, 21.0
+GAIN days total : 97
+FALL days total : 86
+FLAT days total : 9
+Continous UP days MAX : 6
+Times of MAX UP days  : 1
+Continous FALL days MAX : 4
+Times of MAX FALL days  : 5
+Continous UP days Probability : {1: 0.46, 2: 0.29, 3: 0.1, 4: 0.1, 5: 0.02, 6: 0.02}
+Continous FALL days Probability : {1: 0.52, 2: 0.27, 3: 0.1, 4: 0.1}

@@ -1,0 +1,13 @@
+Code : 002227
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 26.5, 16.3
+GAIN days total : 95
+FALL days total : 94
+FLAT days total : 2
+Continous UP days MAX : 6
+Times of MAX UP days  : 1
+Continous FALL days MAX : 7
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.43, 2: 0.22, 3: 0.22, 4: 0.07, 5: 0.02, 6: 0.02}
+Continous FALL days Probability : {1: 0.43, 2: 0.28, 3: 0.17, 4: 0.07, 5: 0.02, 6: 0.0, 7: 0.02}

@@ -4,11 +4,10 @@ import os
 import time
 #import tushare as ts
 from utils import downloadData
-#from stat import calculateTOR
-from utils import calculateTOR
-from utils import calculateAMP
-from utils import calculateCHA
-from utils import calculateSSL
+from stat import calculateTOR
+from stat import calculateAMP
+from stat import calculateCHA
+from stat import calculateSSL
 from analyze import stockAnalyze
 from analyze import stockSelect
 
@@ -56,7 +55,6 @@ if __name__ == "__main__":
     currentDir = os.getcwd()
     print("[INFO] Current working directory is: %s " % (currentDir))
     dataDir = currentDir + "/data/"
-    confDir = currentDir + "/conf/"
     csvDir = dataDir + "/csv/"
     torDir = dataDir + "/tor/"
     ampDir = dataDir + "/amp/"
@@ -64,7 +62,7 @@ if __name__ == "__main__":
     sslDir = dataDir + "/ssl/"
     #csvFileSuffix = ".csv"
     
-    fCodes = open(os.path.join(confDir, "stock_codes.csv"),'r')
+    fCodes = open(os.path.join(dataDir, "stock_codes.csv"),'r')
     codesList = fCodes.readlines()
     #Start to download daily K data for all stock in stock_codes.csv 
     if (len(codesList) > 0):
@@ -107,10 +105,14 @@ if __name__ == "__main__":
             break
         if user_choice == 6:
             stockCode = str(raw_input("    Please enter one stock code: "))
-            stock_Analyze(dataDir, stockCode.strip())
+            stock_Analyze(currentDir, stockCode.strip())
         elif user_choice ==7:
-            stock_Select(dataDir)
+            stock_Select(currentDir)
         else:
             choosed_func = choices[user_choice]
             choosed_func()
         
+            
+    
+    
+    

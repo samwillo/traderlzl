@@ -1,0 +1,13 @@
+Code : 601800
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 19.68, 14.28
+GAIN days total : 97
+FALL days total : 88
+FLAT days total : 5
+Continous UP days MAX : 8
+Times of MAX UP days  : 1
+Continous FALL days MAX : 7
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.46, 2: 0.31, 3: 0.13, 4: 0.06, 5: 0.0, 6: 0.02, 7: 0.0, 8: 0.02}
+Continous FALL days Probability : {1: 0.54, 2: 0.23, 3: 0.15, 4: 0.06, 5: 0.0, 6: 0.0, 7: 0.02}

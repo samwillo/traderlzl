@@ -1,0 +1,13 @@
+Code : 000912
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 11.85, 6.4
+GAIN days total : 54
+FALL days total : 69
+FLAT days total : 3
+Continous UP days MAX : 4
+Times of MAX UP days  : 2
+Continous FALL days MAX : 5
+Times of MAX FALL days  : 2
+Continous UP days Probability : {1: 0.58, 2: 0.27, 3: 0.09, 4: 0.06}
+Continous FALL days Probability : {1: 0.44, 2: 0.31, 3: 0.09, 4: 0.09, 5: 0.06}

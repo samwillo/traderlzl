@@ -1,0 +1,13 @@
+Code : 002443
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 13.53, 7.64
+GAIN days total : 67
+FALL days total : 61
+FLAT days total : 2
+Continous UP days MAX : 5
+Times of MAX UP days  : 1
+Continous FALL days MAX : 7
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.33, 2: 0.42, 3: 0.18, 4: 0.03, 5: 0.03}
+Continous FALL days Probability : {1: 0.55, 2: 0.27, 3: 0.06, 4: 0.09, 5: 0.0, 6: 0.0, 7: 0.03}

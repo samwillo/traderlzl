@@ -1,0 +1,13 @@
+Code : 000790
+Last trading date : 2017-09-29
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 14.04, 7.77
+GAIN days total : 83
+FALL days total : 95
+FLAT days total : 6
+Continous UP days MAX : 4
+Times of MAX UP days  : 4
+Continous FALL days MAX : 5
+Times of MAX FALL days  : 2
+Continous UP days Probability : {1: 0.58, 2: 0.15, 3: 0.17, 4: 0.08}
+Continous FALL days Probability : {1: 0.42, 2: 0.35, 3: 0.1, 4: 0.08, 5: 0.04}

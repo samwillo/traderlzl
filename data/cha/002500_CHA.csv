@@ -1,0 +1,13 @@
+Code : 002500
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 12.59, 8.61
+GAIN days total : 83
+FALL days total : 107
+FLAT days total : 1
+Continous UP days MAX : 4
+Times of MAX UP days  : 1
+Continous FALL days MAX : 7
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.56, 2: 0.33, 3: 0.07, 4: 0.02}
+Continous FALL days Probability : {1: 0.56, 2: 0.2, 3: 0.09, 4: 0.11, 5: 0.0, 6: 0.02, 7: 0.02}

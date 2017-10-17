@@ -1,0 +1,13 @@
+Code : 002208
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 18.85, 11.05
+GAIN days total : 92
+FALL days total : 95
+FLAT days total : 4
+Continous UP days MAX : 5
+Times of MAX UP days  : 1
+Continous FALL days MAX : 7
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.45, 2: 0.33, 3: 0.18, 4: 0.02, 5: 0.02}
+Continous FALL days Probability : {1: 0.57, 2: 0.18, 3: 0.12, 4: 0.02, 5: 0.08, 6: 0.0, 7: 0.02}

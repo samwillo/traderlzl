@@ -1,0 +1,13 @@
+Code : 000759
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 10.9, 7.05
+GAIN days total : 90
+FALL days total : 93
+FLAT days total : 7
+Continous UP days MAX : 5
+Times of MAX UP days  : 3
+Continous FALL days MAX : 5
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.47, 2: 0.3, 3: 0.09, 4: 0.06, 5: 0.06}
+Continous FALL days Probability : {1: 0.47, 2: 0.23, 3: 0.17, 4: 0.11, 5: 0.02}

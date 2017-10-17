@@ -1,0 +1,13 @@
+Code : 002030
+Last trading date : 2017-10-17
+Analyzing from : 2017-01-01
+HIGH point, LOW point : 24.38, 17.88
+GAIN days total : 93
+FALL days total : 92
+FLAT days total : 6
+Continous UP days MAX : 5
+Times of MAX UP days  : 1
+Continous FALL days MAX : 6
+Times of MAX FALL days  : 1
+Continous UP days Probability : {1: 0.51, 2: 0.25, 3: 0.18, 4: 0.04, 5: 0.02}
+Continous FALL days Probability : {1: 0.55, 2: 0.24, 3: 0.12, 4: 0.08, 5: 0.0, 6: 0.02}
