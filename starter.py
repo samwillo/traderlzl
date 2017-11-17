@@ -9,8 +9,10 @@ from utils import calculateTOR
 from utils import calculateAMP
 from utils import calculateCHA
 from utils import calculateSSL
+from utils import calculateCHG
 from analyze import stockAnalyze
 from analyze import stockSelect
+from analyze import sslVerify
 
 def get_download_tag():
     tag = open("latest",'r')
@@ -31,6 +33,9 @@ def calculate_AMP():
 def calculate_CHA():
     calculateCHA.calculateCHA(csvDir, chaDir)
     
+def calculate_CHG():
+    calculateCHG.calculateCHG(csvDir, chgDir)
+    
 def calculate_SSL():
     calculateSSL.calculateSSL(csvDir, sslDir)
     
@@ -39,12 +44,16 @@ def calculate_ALL():
     calculateAMP.calculateAMP(csvDir, ampDir)
     calculateCHA.calculateCHA(csvDir, chaDir)
     calculateSSL.calculateSSL(csvDir, sslDir)
+    calculateCHG.calculateCHG(csvDir, chgDir)
     
 def stock_Analyze(currentDir, code):
     stockAnalyze.analyze(currentDir, code)
     
 def stock_Select(currentDir):
     stockSelect.selectStock(currentDir)
+    
+def run_SSLVerify(sslDir, code):
+    sslVerify.sslVerify(sslDir, code)
     
 if __name__ == "__main__":
     
@@ -57,10 +66,12 @@ if __name__ == "__main__":
     print("[INFO] Current working directory is: %s " % (currentDir))
     dataDir = currentDir + "/data/"
     confDir = currentDir + "/conf/"
+    indexDir = dataDir + "/indexData/"
     csvDir = dataDir + "/csv/"
     torDir = dataDir + "/tor/"
     ampDir = dataDir + "/amp/"
     chaDir = dataDir + "/cha/"
+    chgDir = dataDir + "/chg/"
     sslDir = dataDir + "/ssl/"
     #csvFileSuffix = ".csv"
     
@@ -82,6 +93,8 @@ if __name__ == "__main__":
                 completed += 1
                 print("[INFO] Downloaded data for : " + code)
                 print("[INFO] Downloading process : %s of %s" % (completed, total))
+                
+            downloadData.getIndexData(indexDir, today)
             update_download_tag(today)
     else:
         print("[ERROR] Check codes.csv please! no codes found.")
@@ -89,8 +102,12 @@ if __name__ == "__main__":
     #To run the cmd based tool to do analyzing
     while True:
         print("[PROMPT] Input your choice to do analysis:")
-        print("    1 -> Calculate TOR; 2 -> Calculate AMP; 3 -> Calculate CHA; 4 -> Calculate SSL;")
-        print("    5 -> Calculate All; 6 -> Stock Analyzing; 7 -> Stock Selecting; 0 -> Exit")
+        print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+        print("|   1 -> Calculate TOR; 2 -> Calculate AMP; 3 -> Calculate CHA;                    |")
+        print("|   4 -> Calculate SSL; 5 -> Calculate CHG; 6 -> Calculate All;                    |")
+        print("|   7 -> Stock Selecting; 8 -> Stock Analyzing; 9 -> Run Verify Test;              |")
+        print("|   0 -> Exit                                                                      |")
+        print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
         
         user_choice = int(raw_input("    Please enter the number: "))
         print "    You choosed %s......" % (user_choice)
@@ -100,12 +117,17 @@ if __name__ == "__main__":
             2: calculate_AMP,
             3: calculate_CHA,
             4: calculate_SSL,
-            5: calculate_ALL,
+            5: calculate_CHG,
+            6: calculate_ALL,
         }
-        
-        if user_choice > 7 or user_choice ==0:
+        if user_choice ==0:
             break
-        if user_choice == 6:
+        elif user_choice > 9:
+            continue
+        elif user_choice == 9:
+            stockCode = str(raw_input("    Please enter one stock code: "))
+            run_SSLVerify(sslDir, stockCode)
+        elif user_choice == 8:
             stockCode = str(raw_input("    Please enter one stock code: "))
             stock_Analyze(dataDir, stockCode.strip())
         elif user_choice ==7:
